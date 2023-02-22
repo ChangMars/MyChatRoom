@@ -36,6 +36,23 @@
   
 - <code>use Visual Studio 2019</code>
 - <code>open SignalR.Client.sln</code>
+- <code>Added a file named Apikey.ini in the Debug folder</code>
+- Apikey.ini example 
+----------------------------------------------------------------
+[Proxy]
+Proxy=xxxxxxxxxxxxxxxxxxxxxx
+Auth=xxxxxxxxxxxxxxxxxxxxxx
+Password=xxxxxxxxxxxxxxxxxxxxxx
+
+[Cloudinary]
+Key=xxxxxxxxxxxxxxxxxxxxxx
+Secret=xxxxxxxxxxxxxxxxxxxxxx
+Cloud=xxxxxxxxxxxxxxxxxxxxxx
+
+[B2]
+Query=xxxxxxxxxxxxxxxxxxxxxx
+Key=xxxxxxxxxxxxxxxxxxxxxx
+----------------------------------------------------------------
 - <code>build</code>
 
 ### Demo 
