@@ -26,6 +26,7 @@ using System.Text.RegularExpressions;
 using System.Security.Cryptography;
 using System.Drawing.Imaging;
 using Windows.Foundation.Collections;
+using Fleck;
 
 namespace SignalR.Client
 {
@@ -80,11 +81,9 @@ namespace SignalR.Client
 			loadkey();
 		}
 		#endregion
-
 		#region Control Event
 		private async void Form1_Load(object sender, EventArgs e)
 		{
-
 			ToastNotificationManagerCompat.OnActivated += toastArgs =>
 			{
 
@@ -659,7 +658,7 @@ namespace SignalR.Client
 				await connection.StartAsync();
 			};
 
-			// 註冊給伺服端呼叫的方
+			// 註冊給伺服端呼叫的方法
 			connection.On("ReceiveMessage", (string s1) => OnSend(s1));
 
 			// 連線到 SignalR 伺服器
