@@ -9,9 +9,9 @@
 <br>
 
 ## About
-> 這是一個我自己做的聊天室專案利用SignalR技術，可透過聊天室上傳圖片&檔案，且可透過Win10 Toast通知。
-> 前端利用Window From技術，介面才用客製化視窗+素材整合而成。
-> 後端採用Asp.net core建立Restful API & SignalR
+這是一個我自己做的聊天室專案利用SignalR技術，可透過聊天室上傳圖片&檔案，且可透過Win10 Toast通知。
+前端利用Window From技術，介面才用客製化視窗+素材整合而成。
+後端採用Asp.net core建立Restful API & SignalR
 
 
 ## Languages and Tools
@@ -34,7 +34,9 @@
   git clone https://github.com/ChangMars/myChatRoom.git
   ``` 
   
-- <code>cd myvuechatapp</code>
+- <code>use Visual Studio 2019</code>
+- <code>open SignalR.Client.sln</code>
+- <code>build</code>
 
 ### Demo 
 
